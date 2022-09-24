@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- Les bases d'une page HTML
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8" />
+    <title>NO pain NO Code</title>
+    <meta name="description" content="Notre Charte de Promo" />
+    <meta name="author" content="Promo Simplon Simplon" />
+
+    <!-- Métadonnées spécifique Mobiles
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Liaisons des Polices
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Liaisons des fichiers CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/skeleton.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!--Liaisons du fichier JS si vous faites le bonus
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="/css/script.js"></script>
+    <!-- TODO -->
+
+    <!-- Liaison du Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" href="/Brief Charte/favicon.ico" />
+    <!-- TODO -->
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <h4>Promo DWWM - SNCF 2022</h4>
+      </div>
+    </header>
+
+    <!-- Structure principale de la page
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <main class="container">
+      <div class="entrer">
+        <div class="row">
+          <h4>Ceci est notre charte de promo</h4>
+          <p>
+            Ces règles nous unissent et ont été (longuement &#128517;)
+            <strong>débatues</strong> et <strong>votées</strong> pour pouvoir
+            selectionner celles qui nous correspondent et nous unissent. Les
+            voici, prenez plaisir à les parcourir !
+          </p>
+        </div>
+
+        <div class="button button-primary">ACCES CHARTE</div>
+      </div>
+
+      <section class="coffre">
+        <div onclick="cache1()" id="tittle">
+          <h5>
+            Réussite collective
+            <span style="font-size: 10pt">(Cliquez pour étendre)</span>
+          </h5>
+        </div>
+        <div id="post1" style="display: none">
+          <ul>
+            <li>Bienveillant tu seras</li>
+            <li>Ton code tu partageras</li>
+            <li>L'entraide tu apprendras</li>
+            <li>Ta motivation tu partageras</li>
+          </ul>
+        </div>
+      </section>
+      <section class="coffre">
+        <div onclick="cache2 ()" id="tittle">
+          <h5>
+            Vivre ensemble
+            <span style="font-size: 10pt">(Cliquez pour étendre)</span>
+          </h5>
+        </div>
+        <div id="post2" style="display: none">
+          <ul>
+            <li>Les mêmes objectifs à Simplon nous avons</li>
+            <li>Ensemble nous vaincrons</li>
+            <li>Nous mêmes nous resterons</li>
+            <li>Ensemble nous coderons</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="coffre">
+        <div onclick="cache3 ()" id="tittle">
+          <h5>
+            Spécial Covid...
+            <span style="font-size: 10pt">(Cliquez pour étendre)</span>
+          </h5>
+        </div>
+        <div id="post3" style="display: none">
+          <ul>
+            <li>Les gestes barrières tu respecteras</li>
+            <li>Dans ton coude tu éternueras</li>
+            <li>Des tests tu effectueras</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="coffre">
+        <div onclick="cache4 ()" id="tittle">
+          <h5>
+            Pour le Fun
+            <span style="font-size: 10pt">(Cliquez pour étendre)</span>
+          </h5>
+        </div>
+        <div id="post4" style="display: none">
+          <ul>
+            <li>Ton aspirine tu partageras</li>
+            <li>Des chouquettes tu ramèneras</li>
+            <li>Ta bonne humeur tu partageras</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        Grâce à ce règlement on obtient le code suivant :
+        <pre><code style="overflow: auto;">
+        var compétencesDePromo = [];
+        var humeurPromo = 'Au top'; 
+        if('règles comprises' == true && 'règles appliquées' == true) {
+          compétencesDePromo.push(new Compétence()); 
+        } else {
+          humeurPromo = 'Pas top';
+        }
+      </code></pre>
+      </section>
+    </main>
+  </body>
+</html>
